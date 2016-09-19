@@ -1,63 +1,56 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "张秋怡 - 个人简历",
-  "name": "张秋怡",
-  "repo": "https://github.com/joyeecheung/resume.git",
-  "job_description": ["前端工程师", "软件工程师"],
+  "resume_title": "郭欢 - 个人简历",
+  "name": "郭欢",
+  "repo": "https://github.com/hygkui/resume.git",
+  "job_description": ["web开发全栈工程师", "软件工程师"],
   "contact": {
-    "email": "joyeec9h3@gmail.com",
+    "email": "hygkui@gmail.com",
     "wechat": {
-      "id": "joyee-cheung",
-      "qrcode": "static/wechat.svg"
-    },
-    "sinaweibo": {
-      "id": "SYSU_Joyee",
-      "url": "http://weibo.com/2930876843"
+      "id": "hygkui",
+      "qrcode": "static/wechat.png"
     },
     "github": {
-      "id": "joyeecheung"
-    },
-    "blog": {
-      "url": "http://joyeecheung.cnblogs.com"
+      "id": "hygkui"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/joyeecheung/resume"
+    "url": "https://github.com/hygkui/resume"
 
   }, {
     "type": "pdf",
-    "url": "static/joyeecheung.pdf"
+    "url": "static/hygkui.pdf"
 
-  }, {
-    "type": "zhihu",
-    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
-  }, {
-    "type": "doubanbook",
-    "url": "http://book.douban.com/people/joyee-cheung/"
   }],
   "education": [{
     "type": "undergraduate",
-    "name": "中山大学",
+    "name": "北京理工大学",
     "major": "软件工程",
-    "start": "2012",
-    "end": "2016",
+    "start": "2004",
+    "end": "2008",
     "honor": [
-      "2012 - 2013 学年度校**三等奖学金**",
-      "2013 - 2014 学年度校**一等奖学金**"
-    ]
+      ]
+  }, {
+    "type": "graduate",
+    "name": "空军工程大学",
+    "major": "计算机应用技术",
+    "start": "2011",
+    "end": "2014",
+    "honor": [
+      ]
   }],
   "language": [{
     "type": "english",
     "certificate": [{
       "type": "CET-4",
       "full": "710",
-      "score": "679"
+      "score": "620"
     }, {
       "type": "CET-6",
       "full": "710",
-      "score": "616"
+      "score": "450"
     }],
     "description": [
       "能流畅阅读英文专业书籍、文档及其他资料",
@@ -79,21 +72,7 @@
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
     "compatibility": "IE8+"
-  }, {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "埃森哲广州 CDC",
-    "start": "2014.08",
-    "end": "2014.09",
-    "name": "前端开发",
-    "description": [
-      "参与某集团内部办公系统（OA）的前端开发，基于 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
-      "解决遗留的 bug 及浏览器兼容问题（`IE8+`）",
-      "使用 `Grunt` 及 `Less` 完成皮肤开发"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
-    "compatibility": "IE8+"
-  }, {
+  },  {
     "type": "internship",
     "techtype": "nodejs",
     "place": "东西科技",
@@ -111,37 +90,8 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "Resume",
-    "source": "https://github.com/joyeecheung/resume",
-    "demo": "http://joyeecheung.github.io/resume/",
-    "description": [
-      "这份在线简历的生成器",
-      "从 JSON 读取数据，使用 `Jade` 模板生成 HTML，`Less` 生成**响应式**样式",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
-    ],
-    "stack": ["jade", "less", "gulp"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "My Tech Diary",
-    "source": "https://github.com/joyeecheung/diary",
-    "demo": "http://joyeecheung.github.io/diary/",
-    "description": [
-      "一个技术日记站点生成器，从 `git submodule` 中读取 `Markdown` 文件，结合 `Jade` 模板，生成静态站点",
-      "通过 `PostCSS` 将依照实验性 CSS 标准编写的代码转译使用",
-      "前端 JavaScript 代码以 `CommonJS` 形式组织，使用 `WebPack` 进行打包处理",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
-    ],
-    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
     "name": "Virtual Bookcase",
-    "source": "https://github.com/joyeecheung/virtual-bookcase",
+    "source": "https://github.com/hygkui/virtual-bookcase",
     "description": [
       "基于 `Three.js` 实现的 3D 虚拟图书室",
       "使用 `Express` 与 `MongoDB` 提供图书数据 API",
@@ -174,9 +124,9 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "使用 `Meteor` / `AngularJS` / `Polymer` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "在项目中使用过 `Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
+        "使用 `Meteor` / `AngularJS` / `React` / `Vue.js` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
+        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制",
+        "在项目中使用过 `Bower` / `WebPack` 等多种模块化解决方案",
         "在项目中使用过 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
         "日常使用 `Grunt` 或 `Gulp` 改进工作流",
         "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
@@ -194,21 +144,20 @@
     }, {
       "summary": "其他",
       "description": [
-        "使用 `Tornado` / `Flask`（`Python`） 搭建过简单的服务器",
-        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
+        "使用 `Django` / `Flask` / `web.py`（`Python`） 搭建过简单的服务器",
+        "有使用 `MongoDB` / `MySQL` 数据库，`nginx` 反向代理的经验",
         "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-      "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
-      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
+      "八年 `Linux/Mac` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫程序 web开发（参见 GitHub）",
       "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
       "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
       "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "能够使用 `Photoshop` / `Designer` / `Sketch` 完成简单的设计"
     ]
   }]
 }
